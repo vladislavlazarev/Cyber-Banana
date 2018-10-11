@@ -1,0 +1,38 @@
+.user-list__avatar {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: 110px;
+
+}
+.user-list__info {
+
+}
+.user-list__item {
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
+	border-radius: 6px!important;
+
+}
+.user-list__item:hover {
+	border-color:lightgreen;
+	transition: .3s;
+	cursor: pointer;
+}
+.user-list__type {
+	margin-bottom: 50px;
+}
+.user-list__name {
+	margin-bottom: 5px;
+}
+.user-list__id span {
+	color: white;
+	font-weight: 900;
+	font-size: 15px;
+}
+.card__header h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
